@@ -185,7 +185,7 @@ span{
     justify-content: center;
     flex-wrap: wrap;
 }
-.contact-form form .input-box,
+.contact-form form .input-box input,
 .contact-form form textarea{
     width: 100%;
     padding: 1.5em;
