@@ -172,6 +172,34 @@ span{
     margin: 2em 0 3em;
 }
 
+.art{
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.art-content{
+    max-width: 800px;
+}
+.art-content h1{
+    font-size: 55px;
+    line-height: 1.2;
+}
+.art-content p{
+    font-size: 20px;
+    margin: 15px 0 30px;
+}
+.img-art img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px rgb(255, 169, 190),
+                0 0 50px rgb(255, 169, 190);
+    border-radius: 50%;
+}
+
 .footer{
     position: relative;
     bottom: 0;
