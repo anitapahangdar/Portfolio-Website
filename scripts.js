@@ -7,6 +7,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+function scrollToAbout() {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+}
 //dropdown list 
 document.addEventListener('DOMContentLoaded', function() {
     const contactLink = document.querySelector('.contact');
