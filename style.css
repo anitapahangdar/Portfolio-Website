@@ -34,6 +34,16 @@
 .logo{
     color: rgb(214, 198, 202);
 }
+.navbar {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center; 
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
 .navbar a{
     font-size: 20px;
     color: white;
@@ -58,18 +68,15 @@
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 .contact:hover{
     background-color: rgb(255, 169, 190);
-    /*box-shadow: 0 0 25px rgb(255, 169, 190);*/
     color: black;
 }
 .contact-dropdown {
     position: relative;
     display: inline-block;
-}
-.contact {
-    cursor: pointer;
 }
 .dropdown-content {
     display: none;
