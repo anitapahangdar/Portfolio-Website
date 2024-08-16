@@ -315,3 +315,60 @@ span{
     color: black;
     border: 2px solid black;
 }
+
+.heading{
+    text-align: center;
+    font-size: 7rem;
+    margin: 5rem 0;
+}
+.services{
+    background-color: white;
+    color: black;
+    margin-top: 100px;
+}
+.services h2{
+    color: white;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    gap: 2.5rem;
+}
+.service-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(112, 59, 72);
+    height: 600px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 5px solid transparent;
+    transition: 0.3s ease;
+    transform: scale(0.8);
+}
+.service-box:hover{
+    background-color: white;
+    color: rgba(112, 59, 72);
+    border: 5px solid rgba(112, 59, 72);
+    transform: scale(0.9);
+}
+.service-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 5rem;
+}
+.service-info i{
+    font-size: 8rem;
+}
+.service-info h4{
+    font-size: 42px;
+    margin: 2rem;
+    font-weight: 800;
+}
+.service-info p{
+    font-size: 20px;
+    font-weight: 400;
+}
