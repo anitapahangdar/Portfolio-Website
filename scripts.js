@@ -7,7 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
+//dropdown list 
 document.addEventListener('DOMContentLoaded', function() {
     const contactLink = document.querySelector('.contact');
     const dropdownContent = document.querySelector('.dropdown-content');
@@ -15,5 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
     contactLink.addEventListener('click', function(event) {
         event.preventDefault(); // Prevent the default link behavior
         dropdownContent.classList.toggle('show');
+    });
+});
+//resume button
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("resume-btn").addEventListener("click", function() {
+        window.open("AnitaPahangdar Resume 2024.pdf", "_blank");
     });
 });
